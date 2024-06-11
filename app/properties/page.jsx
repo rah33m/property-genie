@@ -17,6 +17,7 @@ const PropertiesPage = () => {
       </div>
     </section>
   );
+
 };
 
 export default PropertiesPage;
