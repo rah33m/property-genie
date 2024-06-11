@@ -1,11 +1,14 @@
-import Link from "next/link";
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
+import HomeProperties from "@/components/HomeProperties";
 
 export default function Home() {
   return (
     <main className="">
       <div>
-        <h1>Welcome</h1>
-        <Link href="/properties">properties</Link>
+        <Hero />
+        <InfoBoxes />
+        <HomeProperties />
       </div>
     </main>
   );
